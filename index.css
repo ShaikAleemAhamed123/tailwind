@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.underline_animation{
+    @apply relative text-black cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]
+}
+
+.button_animation{
+    @apply relative overflow-hidden transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:duration-300 before:ease-out before:bg-slate-500 hover:before:h-40 hover:before:w-48 hover:before:opacity-80
+}
+
+@tailwind utilities;
+
+ 
