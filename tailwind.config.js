@@ -11,7 +11,8 @@ module.exports = {
   },
   plugins: [
     require('taos/plugin'),
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('daisyui')
   ],
   safelist: [
     '!duration-[0ms]',
